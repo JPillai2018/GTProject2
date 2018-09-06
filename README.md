@@ -27,6 +27,5 @@
     *Body-Parser
     *Passport
     *Passport-local
-    *Socket-io
     *sequelize
     *bcrypt-nodejs
