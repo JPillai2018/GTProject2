@@ -46,15 +46,6 @@ module.exports = function(app) {
     res.redirect("/allvisitors");
   });
 
-//update logged off on the database by setting state to false
-app.get("/api/leave/", function(req, res) {
-    // findAll returns all entries for a table when used with no options
-    db.User.findAll({}).then(function(dbTodo) {
-      res.json(dbTodo);
-    });
-    res.redirect("/logout");
-  });
-
 //once logout update the logged state
 app.put("/logout", function (req, res)
 {

@@ -101,13 +101,6 @@ $(document).ready(function() {
         var newPostTitle = $("<h5>");
         var newPostDate = $("<small>");
         var newPostCategory = $("<h6>");
-        //newPostCategory.text(post.category);
-        // newPostCategory.css({
-        // float: "right",
-        // "font-weight": "700",
-        // "margin-top":
-        // "-15px"
-        // });
         var newPostCardBody = $("<div>");
         newPostCardBody.addClass("card-body");
         var newPostBody = $("<p>");
